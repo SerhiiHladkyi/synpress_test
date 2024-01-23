@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test": "npm start & env-cmd -f .env npx synpress run -cf synpress.config.js --config supportFile='tests/support/index.js'",
+    "start": "node server.js"
+  }
+ }
